@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "memberListServlet", urlPatterns = "/servlet/members/save")
+@WebServlet(name = "memberSaveServlet", urlPatterns = "/servlet/members/save")
 public class MemberSaveServlet extends HttpServlet {
 	MemberRepository memberRepository = MemberRepository.getInstance();
 
