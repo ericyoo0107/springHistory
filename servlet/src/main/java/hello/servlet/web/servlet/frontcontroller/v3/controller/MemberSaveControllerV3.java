@@ -1,10 +1,11 @@
-package hello.servlet.web.servlet.frontcontroller.v3;
+package hello.servlet.web.servlet.frontcontroller.v3.controller;
 
 import java.util.Map;
 
 import hello.servlet.domain.member.Member;
 import hello.servlet.domain.member.MemberRepository;
 import hello.servlet.web.servlet.frontcontroller.ModelView;
+import hello.servlet.web.servlet.frontcontroller.v3.ControllerV3;
 
 public class MemberSaveControllerV3 implements ControllerV3 {
 	private MemberRepository memberRepository = MemberRepository.getInstance();
